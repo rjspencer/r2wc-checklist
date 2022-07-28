@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.c07c87fe.js",
-    "index.html": "/index.html",
-    "main.c07c87fe.js.map": "/static/js/main.c07c87fe.js.map"
+    "main.js": "/r2wc-checklist/static/js/main.c07c87fe.js",
+    "index.html": "/r2wc-checklist/index.html",
+    "main.c07c87fe.js.map": "/r2wc-checklist/static/js/main.c07c87fe.js.map"
   },
   "entrypoints": [
     "static/js/main.c07c87fe.js"
