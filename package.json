@@ -2,11 +2,7 @@
   "name": "r2wc-checklist",
   "version": "0.1.0",
   "private": true,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "homepage": "/r2wc-checklist/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
