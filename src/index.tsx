@@ -1,6 +1,6 @@
 import React, { Requireable } from 'react';
 import * as ReactDOM from 'react-dom/client';
-import PropTypes, { InferProps } from 'prop-types';
+import PropTypes from 'prop-types';
 import reactToWebComponent from 'react-to-webcomponent';
 import Checklist from './components/checklist/Checklist';
 import { isChecklistItemType } from './types/checklistItem';
