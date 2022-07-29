@@ -34,5 +34,11 @@ WebComponentWrapper.propTypes = {
 }
 
 const wcChecklist = reactToWebComponent(WebComponentWrapper, React, ReactDOM, { dashStyleAttributes: true });
+const wcChecklistShadow = reactToWebComponent(WebComponentWrapper, React, ReactDOM, { dashStyleAttributes: true, shadow: true });
 
-customElements.define("r2w-checklist", wcChecklist);
+customElements.define("r2wc-checklist", wcChecklist);
+customElements.define("r2wc-checklist-shadow", wcChecklistShadow);
+
+// How to use:
+// <script defer="defer" src="https://rjspencer.github.io/r2wc-checklist/static/js/main.js"></script> 
+// <r2wc-checklist items='[{"label":"First Thing","isChecked":false}]' />
