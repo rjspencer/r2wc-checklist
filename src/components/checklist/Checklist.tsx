@@ -27,6 +27,7 @@ export default function Checklist(props: Props) {
       </Box>
       {items.map((item, index) => (
         <ChecklistItem
+          key={item.label}
           item={item}
           onChange={() => {
             const newItems = [...items];
